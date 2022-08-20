@@ -1,0 +1,199 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  font-style: italic;
+  background: #eaebec;
+  border: #ccc 1px solid;
+}
+ 
+table th {
+  padding: 7px 7px;
+  color: white;
+  border-left:1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  background: #030d27;
+}
+ 
+table th:first-child{  
+  border-left:none;  
+}
+ 
+table tr {
+  text-align: center;
+  padding-left: 20px;
+}
+ 
+table td:first-child {
+  text-align: left;
+  padding-left: 20px;
+  border-left: 0;
+}
+ 
+table td {
+  padding: 15px 35px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+  background: -moz-linear-gradient(top, #fbfbfb, #fafafa);
+}
+ 
+table tr:last-child td {
+  border-bottom: 0;
+}
+ 
+table tr:last-child td:first-child {
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+ 
+table tr:last-child td:last-child {
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+ 
+table tr:hover td {
+  background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+}
+
+#tombolScrollTop
+{
+    cursor: pointer;
+    position:fixed;
+    left:85%;
+    text-align: center;
+    bottom:20px;
+    border:3px solid #585858;
+    background-color:rgba(255,255,255,0.8);
+    color:#585858;
+    border-radius:10%;
+    height:50px;
+    width:130px;
+    font-size:10px;
+    align-items: left;
+    display:none;
+     background: #f2f2f2;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+  background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+}
+
+
+.navbawah{
+  cursor: pointer;
+  position:fixed;
+  left:85%;
+  text-align: center;
+  bottom:20px;
+  border:3px solid #585858;
+  background-color:rgba(255,255,255,0.8);
+  color:#585858;
+  border-radius:10%;
+  height:50px;
+  width:130px;
+  font-size:10px;
+  align-items: left;
+  display:none;
+   background: #f2f2f2;
+background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+background: -moz-linear-gradient(top, #f2f2f2, #f0f0f0);
+}
+
+.button-container {
+  text-align: center;
+}
+.button {
+  position: relative;
+  background: currentColor;
+  border: 1px solid currentColor;
+  font-size: 1rem;
+  text-align: left;
+  text-align-last: left;
+  color: #030d27;
+  margin: 1px;
+  border-radius: 20%;
+  padding: 0rem 1rem;
+  cursor: pointer;
+  width: 55px;
+  height: 50px;
+  -webkit-transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+  transition: background-color 0.28s ease, color 0.28s ease, box-shadow 0.28s ease;
+  overflow: hidden;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.button span {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.button::before {
+  content: '';
+  position: absolute;
+  background: #071017;
+  border: 50vh solid #1d4567;
+  width: 30vh;
+  height: 30vh;
+  border-radius: 50%;
+  display: block;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+}
+.button:hover {
+  color: #D81900;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.2);
+}
+.button:active::before, .button:focus::before {
+  -webkit-transition: opacity 0.28s ease 0.364s, -webkit-transform 1.12s ease;
+  transition: opacity 0.28s ease 0.364s, -webkit-transform 1.12s ease;
+  transition: transform 1.12s ease, opacity 0.28s ease 0.364s;
+  transition: transform 1.12s ease, opacity 0.28s ease 0.364s, -webkit-transform 1.12s ease;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  opacity: 0;
+}
+.button:focus {
+  outline: none;
+}
+
+.untuk-h2-atas
+{
+    margin-left: 80px;
+}
+
+.kiri-foto
+{
+    width:90%;
+    height:50px;
+    float:left;
+}
+
+.kanan-foto
+{
+    width:10%;
+    height:50px;
+    float:right;
+    
+}
+
+#kiri
+{
+width:50%;
+height:100px;
+
+float:left;
+}
+#kanan
+{
+width:50%;
+height:100px;
+
+float:right;
+}
