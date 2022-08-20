@@ -7,7 +7,7 @@ Latar belakang dibuatnya aplikasi ini adalah untuk absen para pegawai yang diman
 *note:
 - Aplikasi berbasis Web
 - Menggunakan Code Igniter v.3
-- Karena pengetahuan saya yang masih terbilang minim di dunia programing saat SMK, aplikasi ini jauh dari sempurna
+- Pengetahuan saya yang masih sangat minim di dunia programing saat SMK
 - Fitur laporan sudah tidak bisa digunakan dikarenakan library nya sudah usang (tidak bisa digunakan)
 - Terdapat library yang sudah tidak bisa digunakan lagi (TCPDF) untuk membuat laporan menjadi PDF dan sudah saya hapus
 - Nama variabel dan fungsi membuat bingung
